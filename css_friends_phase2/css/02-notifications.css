@@ -1,0 +1,48 @@
+/* PHASE 2: Notifications */
+.badge {
+  display: inline;
+  font-size: 14px;
+  padding: 1px 6px;
+  margin-left: 7px;
+  background: #000;
+  border-radius: 50%;
+}
+
+li:hover .badge {
+  background: red;
+}
+
+.header-notifications {
+  display: none;
+  position: absolute;
+  left: -1px;
+  border: 1px solid #ccc;
+  border-top: 0px solid wheat;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.header {
+  position: relative;
+}
+
+.header-list > li {
+  position: relative;
+}
+
+li:hover .header-notifications {
+  display: block;
+}
+
+.header-notifications > li {
+  border-top:  1px solid #ccc;
+  color: #000;
+}
+
+.header-notifications > li:hover {
+  background: #eee;
+}
